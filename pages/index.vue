@@ -41,13 +41,12 @@
 </template>
 
 <script>
-  import Bar from "@/components/Bar";
-
-  export default {
-    components: {
-      Bar
-    }
+import Bar from "@/components/Bar";
+export default {
+  components: {
+    Bar
   }
+}
 </script>
 
 <style>
