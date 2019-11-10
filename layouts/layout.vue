@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div style="background: #212121;">
     <Header/>
-    <nuxt/>
+    <nuxt style="width: 80%"></nuxt>
     <Footer/>
   </div>
 </template>
