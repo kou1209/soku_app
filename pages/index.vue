@@ -33,7 +33,7 @@
 
 <style>
   .sokujpg {
-    height: 100%;
+    height: 700px;
     width: 100%;
     border-radius: 30px;
   }
