@@ -14,6 +14,7 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "@mdi/font": "^4.5.95",
     "@nuxtjs/vuetify": "^1.0.0"
   }
 }
