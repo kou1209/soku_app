@@ -1,7 +1,7 @@
 <template>
   <div style="background: #212121;">
     <Header/>
-    <nuxt style="width: 80%"></nuxt>
+    <nuxt style="width: 70%; padding-top: 60px"></nuxt>
     <Footer/>
   </div>
 </template>

@@ -15,9 +15,9 @@
           dark
           style="height: 50%; padding-top: 40px"
         >
-          <v-card-title class="headline ma-3" style="font-size: 50px">この男、即戦力・・・</v-card-title>
+          <v-card-title class="headline ma-3" style="font-size: 30px">この男、即戦力・・・</v-card-title>
           <v-spacer></v-spacer>
-          <v-card-subtitle class=ma-3 style="font-size: 50px">即戦力な男。中野晃佑</v-card-subtitle>
+          <v-card-title class="ma-3" style="font-size: 30px">即戦力な男。中野晃佑</v-card-title>
         </v-card>
       </v-col>
     </v-row>
@@ -33,8 +33,8 @@
 
 <style>
   .sokujpg {
-    height: 700px;
-    width: 100%;
-    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
   }
 </style>
