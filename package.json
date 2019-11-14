@@ -11,7 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vuelidate": "^0.7.4"
   },
   "devDependencies": {
     "@mdi/font": "^4.5.95",
