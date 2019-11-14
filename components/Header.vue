@@ -23,9 +23,9 @@
           background-color="transparent"
         >
           <v-spacer></v-spacer>
-          <v-tab v-for="data in Datas" :key="data.value">
-            <nuxt-link style="color: white; text-decoration: none" :to="data.to">
-              {{data.name}}
+          <v-tab v-for="(link, index) in links" :key="index">
+            <nuxt-link style="color: white; text-decoration: none" :to="link.to">
+              {{link.name}}
             </nuxt-link>
           </v-tab>
           <v-spacer></v-spacer>
@@ -45,26 +45,22 @@
   export default {
     data() {
       return {
-        Datas: [
+        links: [
           {
             name: "即戦力な男とは・・・",
-            to: "/",
-            value: "index"
+            to: "/"
           },
           {
             name: "即戦力な経歴",
-            to: "/profile",
-            value: "profile"
+            to: "/profile"
           },
           {
             name: "担当した業務",
-            to: "/works",
-            value: "works"
+            to: "/works"
           },
           {
             name: "連絡する",
-            to: "/contact",
-            value: "contact"
+            to: "/contact"
           }
         ]
       }

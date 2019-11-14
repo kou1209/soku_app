@@ -1,5 +1,5 @@
 <template>
-  <div style="background: #212121;">
+  <div style="background-color: #FFF;">
     <Header/>
     <nuxt style="width: 70%; padding-top: 60px"></nuxt>
     <Footer/>
