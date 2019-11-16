@@ -1,33 +1,35 @@
 <template>
   <v-container>
-    <form name="contact" method="post" action="" data-netlify="true" data-netlify-honeypot="bot-field">
-      <v-text-field
-        v-model="name"
-        :error-messages="nameErrors"
-        label="お名前*"
-        required
-        @input="$v.name.$touch()"
-        @blur="$v.name.$touch()"
-      ></v-text-field>
-      <v-text-field
-        v-model="email"
-        :error-messages="emailErrors"
-        label="メールアドレス*"
-        required
-        @input="$v.email.$touch()"
-        @blur="$v.email.$touch()"
-      ></v-text-field>
-      <v-textarea
-        v-model="message"
-        :error-messages="messageErrors"
-        label="メッセージ内容*"
-        required
-        @input="$v.message.$touch()"
-        @blur="$v.message.$touch()"
-        style="margin-bottom: 30px;"
-      ></v-textarea>
-      <v-btn type="submit" style="margin-bottom: 70px;" @click="submit">submit</v-btn>
-    </form>
+    <no-ssr>
+      <form name="contact" method="post" action="" data-netlify="true" data-netlify-honeypot="bot-field">
+        <v-text-field
+          v-model="name"
+          :error-messages="nameErrors"
+          label="お名前*"
+          required
+          @input="$v.name.$touch()"
+          @blur="$v.name.$touch()"
+        ></v-text-field>
+        <v-text-field
+          v-model="email"
+          :error-messages="emailErrors"
+          label="メールアドレス*"
+          required
+          @input="$v.email.$touch()"
+          @blur="$v.email.$touch()"
+        ></v-text-field>
+        <v-textarea
+          v-model="message"
+          :error-messages="messageErrors"
+          label="メッセージ内容*"
+          required
+          @input="$v.message.$touch()"
+          @blur="$v.message.$touch()"
+          style="margin-bottom: 30px;"
+        ></v-textarea>
+        <v-btn type="submit" style="margin-bottom: 70px;" @click="submit">submit</v-btn>
+      </form>
+    </no-ssr>
   </v-container>
 </template>
 
