@@ -23,10 +23,8 @@
           background-color="transparent"
         >
           <v-spacer></v-spacer>
-          <v-tab v-for="(link, index) in links" :key="index">
-            <nuxt-link style="color: white; text-decoration: none" :to="link.to">
-              {{link.name}}
-            </nuxt-link>
+          <v-tab v-for="(link, index) in links" :key="index" style="color: white; text-decoration: none" :to="link.to">
+            {{link.name}}
           </v-tab>
           <v-spacer></v-spacer>
         </v-tabs>

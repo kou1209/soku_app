@@ -1,6 +1,7 @@
 <template>
   <v-container>
-    <form method="POST" netlify>
+    <form netlify action="thank-you" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact"/>
       <v-text-field
         v-model="name"
         :error-messages="nameErrors"
@@ -75,6 +76,7 @@
     methods: {
       submit() {
         this.$v.$touch();
+        alert("お問い合わせを受け付けました")
       }
     },
   }
