@@ -9,7 +9,7 @@
       no-gutters
       justify="center"
     >
-      <v-col cols="12">
+      <v-col xs="12">
         <div style="text-align: center">
           <v-btn
             v-for="(link, index) in links"
@@ -32,7 +32,7 @@
       </v-col>
       <v-col
         class="primary lighten-2 py-4 text-center white--text"
-        cols="12"
+        xs="12"
       >
         <div style="text-align: center; color: white; margin-top: 20px">
           {{ new Date().getFullYear() }} — <strong>即戦力な男。中野晃佑</strong>
