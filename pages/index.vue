@@ -11,7 +11,6 @@
         cols="6"
       >
         <v-card
-          dark
           style="height: 50%; padding-top: 40px"
         >
           <v-card-title class="headline ma-3" style="text-align: center">この男、即戦力・・・</v-card-title>
