@@ -11,13 +11,12 @@
         cols="6"
       >
         <v-card
-          color="#385F73"
           dark
           style="height: 50%; padding-top: 40px"
         >
-          <v-card-title class="headline ma-3" style="font-size: 30px">この男、即戦力・・・</v-card-title>
+          <v-card-title class="headline ma-3" style="text-align: center">この男、即戦力・・・</v-card-title>
           <v-spacer></v-spacer>
-          <v-card-title class="ma-3" style="font-size: 30px">即戦力な男。中野晃佑</v-card-title>
+          <v-card-title class="ma-3" style="text-align: center">即戦力な男。中野晃佑</v-card-title>
         </v-card>
       </v-col>
     </v-row>
