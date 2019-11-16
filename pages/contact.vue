@@ -31,7 +31,7 @@
           @blur="$v.message.$touch()"
           style="margin-bottom: 30px;"
         ></v-textarea>
-        <v-btn type="submit" style="margin-bottom: 70px;">送信</v-btn>
+        <v-btn type="submit" style="margin-bottom: 70px;" @click="submit">送信</v-btn>
       </form>
     </no-ssr>
   </v-container>
@@ -75,6 +75,14 @@
         !this.$v.email.email && errors.push('不正な値です');
         !this.$v.email.required && errors.push('未入力です');
         return errors;
+      },
+    },
+
+    methods: {
+      submit() {
+        this.name === '' ||
+        this.email === '' ||
+        this.message === '' ?  alert('未入力の項目があります') :  alert('お問い合わせを受け付けました')
       },
     },
   }
