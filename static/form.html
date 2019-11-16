@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="">
 </head>
 <body>
-<form name="contactform" method="post" netlify>
-  <input name="name" type="text" class="input is-success" placeholder="新垣結衣">
-  <input type="email" name="email" class="input is-success" placeholder="yui@aragaki.love">
-  <textarea name="message" class="textarea" placeholder="新垣結衣のホームページをつくりたいです。などなど"></textarea>
+<form name="contact" method="post" action="" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact">
+  <input name="name">
+  <input name="email">
+  <textarea name="message" class="textarea"></textarea>
+  <btn type="submit" style="margin-bottom: 70px;">送信</btn>
 </form>
 </body>
 </html>

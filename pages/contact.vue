@@ -1,12 +1,14 @@
 <template>
   <v-container>
     <no-ssr>
-      <form name="contact" method="post" action="" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact" method="POST">
+        <input type="hidden" name="form-name" value="contact">
         <v-text-field
           v-model="name"
           :error-messages="nameErrors"
           label="お名前*"
           required
+          name="name"
           @input="$v.name.$touch()"
           @blur="$v.name.$touch()"
         ></v-text-field>
@@ -15,6 +17,7 @@
           :error-messages="emailErrors"
           label="メールアドレス*"
           required
+          name="email"
           @input="$v.email.$touch()"
           @blur="$v.email.$touch()"
         ></v-text-field>
@@ -23,6 +26,7 @@
           :error-messages="messageErrors"
           label="メッセージ内容*"
           required
+          name="message"
           @input="$v.message.$touch()"
           @blur="$v.message.$touch()"
           style="margin-bottom: 30px;"
