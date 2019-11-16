@@ -1,7 +1,6 @@
 <template>
   <v-container>
-    <form netlify action="thank-you" name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact"/>
+    <form name="contact" method="post" action="" data-netlify="true" data-netlify-honeypot="bot-field">
       <v-text-field
         v-model="name"
         :error-messages="nameErrors"
@@ -27,7 +26,7 @@
         @blur="$v.message.$touch()"
         style="margin-bottom: 30px;"
       ></v-textarea>
-      <v-btn style="margin-bottom: 70px;" @click="submit">submit</v-btn>
+      <v-btn type="submit" style="margin-bottom: 70px;" @click="submit">submit</v-btn>
     </form>
   </v-container>
 </template>
@@ -75,8 +74,12 @@
 
     methods: {
       submit() {
-        this.$v.$touch();
-        alert("お問い合わせを受け付けました")
+        if (this.name === '' || this.email === '' || this.message === '') {
+          alert('未入力の項目があります')
+        } else {
+          this.$v.$touch();
+          alert('お問い合わせを受け付けました')
+        }
       }
     },
   }
