@@ -1,15 +1,15 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6">
+      <v-col xs="12">
         <img class="nandemojpg" src="@/static/nandemo.JPG">
       </v-col>
-      <v-col cols="6">
+      <v-col xs="12">
         <v-card style="margin-bottom: 20px;">
           <v-card-text>
             <h1 style="margin: 20px;">経歴</h1>
             <ul style="margin: 30px;">
-              <li style="margin: 10px 0;" v-for="history in histories" >
+              <li style="margin: 10px 0;" v-for="history in histories">
                 {{ history }}
               </li>
             </ul>
@@ -19,7 +19,7 @@
           <v-card-text>
             <h1 style="margin: 20px;">技術</h1>
             <ul style="margin: 30px;">
-              <li style="margin: 10px 0;" v-for="technology in technologies" >
+              <li style="margin: 10px 0;" v-for="technology in technologies">
                 {{ technology }}
               </li>
             </ul>
@@ -57,5 +57,11 @@
   .nandemojpg {
     text-align: right;
     width: 400px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .nandemojpg {
+      width: 250px
+    }
   }
 </style>
