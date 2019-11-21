@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-row>
-      <v-col xs="12">
+      <v-col cols="12" >
         <img class="nandemojpg" src="@/static/nandemo.JPG">
       </v-col>
-      <v-col xs="12">
+      <v-col cols="12" >
         <v-card style="margin-bottom: 20px;">
           <v-card-text>
             <h1 style="margin: 20px;">経歴</h1>
@@ -61,7 +61,7 @@
 
   @media screen and (max-width: 480px) {
     .nandemojpg {
-      width: 250px
+      width: 100%;
     }
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #FFF;">
+  <div style="background-color: #EEEEEE;">
     <Header/>
     <v-container>
       <v-row>
