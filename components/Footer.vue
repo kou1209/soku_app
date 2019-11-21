@@ -24,19 +24,20 @@
           </v-btn>
         </div>
       </v-col>
-      <v-col cols="12">
-        <div style="text-align: center; margin-top: 20px;">
-          <i class="fab fa-github fa-3x"></i>
-          <i style="color: #339af0;" class="fab fa-twitter fa-3x"></i>
-        </div>
+      <v-col cols="12" style="text-align: center; padding: 10px; 0">
+        <a href="https://github.com/kou1209" target=”_blank”>
+          <i class="fab fa-github fa-2x" style="color: black"></i>
+        </a>
+        <a href="https://twitter.com/knakano1209" target="_blank">
+          <i class="fab fa-twitter fa-2x" style="color: #339af0;"></i>
+        </a>
       </v-col>
       <v-col
-        class="primary lighten-2 py-4 text-center white--text"
+        class="primary lighten-2 text-center white--text"
         xs="12"
+        style="text-align: center; color: white; font-weight: bold"
       >
-        <div style="text-align: center; color: white; margin-top: 20px">
-          {{ new Date().getFullYear() }} — <strong>即戦力な男。中野晃佑</strong>
-        </div>
+        {{ new Date().getFullYear() }} — 即戦力な男。中野晃佑
       </v-col>
     </v-row>
   </v-footer>

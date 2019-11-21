@@ -2,24 +2,30 @@
   <v-container fluid>
     <v-row justify="center">
       <v-col
-        cols="6"
+        cols="12"
+        sm="12"
+      >
+        <v-card
+          style="padding-top: 40px"
+        >
+          <v-card-title class="headline ma-3">
+            <div class="soku">この男、即戦力・・・</div>
+          </v-card-title>
+          <v-spacer></v-spacer>
+          <v-card-title class="ma-3">
+            <div class="soku">即戦力な男。中野晃佑</div>
+          </v-card-title>
+        </v-card>
+      </v-col>
+      <v-col
+        cols="12"
+        sm="12"
         justify="center"
       >
         <img class="sokujpg" src="@/static/soku.JPG">
       </v-col>
-      <v-col
-        cols="6"
-      >
-        <v-card
-          style="height: 50%; padding-top: 40px"
-        >
-          <v-card-title class="headline ma-3" style="text-align: center">この男、即戦力・・・</v-card-title>
-          <v-spacer></v-spacer>
-          <v-card-title class="ma-3" style="text-align: center">即戦力な男。中野晃佑</v-card-title>
-        </v-card>
-      </v-col>
     </v-row>
-    <h3 style="text-align: center; color: white">inspired by 世界一即戦力な男・菊池良、あかしぃ</h3>
+    <h3 style="text-align: center; color: black">inspired by 世界一即戦力な男・菊池良、あかしぃ</h3>
   </v-container>
 </template>
 
@@ -31,8 +37,24 @@
 
 <style>
   .sokujpg {
-    height: 500px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
+  }
+  .soku {
+    font-weight: bold;
+    font-size: 75px;
+    margin: 10px
+  }
+
+  @media screen and (max-width: 480px) {
+    .sokujpg {
+      width: 100%;
+    }
+    .soku {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0;
+    }
   }
 </style>
