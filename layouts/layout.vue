@@ -1,9 +1,5 @@
 <template>
   <div style="background-color: #EEEEEE;">
-    <head>
-      sokusenryoku
-    </head>
-    <body>
     <Header/>
     <v-container>
       <v-row>
@@ -13,7 +9,6 @@
       </v-row>
     </v-container>
     <Footer/>
-    </body>
   </div>
 </template>
 
