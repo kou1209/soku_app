@@ -6,7 +6,7 @@
         sm="12"
       >
         <v-card
-          style="padding-top: 40px"
+          class="soku-card"
         >
           <v-card-title class="headline ma-3">
             <div class="soku">この男、即戦力・・・</div>
@@ -41,20 +41,39 @@
     width: 100%;
     border-radius: 10px;
   }
+
   .soku {
     font-weight: bold;
     font-size: 75px;
     margin: 10px
   }
 
+  .soku-card {
+    padding-top: 40px;
+    height: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .soku {
+      font-weight: bold;
+      font-size: 60px;
+      margin: 0;
+    }
+  }
+
   @media screen and (max-width: 480px) {
     .sokujpg {
       width: 100%;
     }
+
     .soku {
       font-weight: bold;
       font-size: 20px;
       margin: 0;
+    }
+
+    .soku-card {
+      height: 200px;
     }
   }
 </style>
