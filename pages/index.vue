@@ -6,7 +6,7 @@
         Portfolio
         Site
       </v-col>
-      <img class="jpg" src="@/static/Christmas.JPG">
+      <img class="jpg" src="@/static/christmas.JPG">
     </v-row>
   </v-container>
 </template>
