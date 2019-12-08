@@ -37,7 +37,7 @@
         xs="12"
         style="text-align: center; color: white; font-weight: bold"
       >
-        {{ new Date().getFullYear() }} — 即戦力な男。中野晃佑
+        {{ new Date().getFullYear() }} — Kosuke Nakano
       </v-col>
     </v-row>
   </v-footer>
@@ -49,19 +49,19 @@
       return {
         links: [
           {
-            name: "即戦力な男とは・・・",
+            name: "Top",
             to: "/"
           },
           {
-            name: "即戦力な経歴",
+            name: "About",
             to: "/profile"
           },
           {
-            name: "担当した業務",
+            name: "Works",
             to: "/works"
           },
           {
-            name: "連絡する",
+            name: "Contact",
             to: "/contact"
           }
         ]
