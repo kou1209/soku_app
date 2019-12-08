@@ -15,7 +15,7 @@
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {
-    "@mdi/font": "^4.5.95",
-    "@nuxtjs/vuetify": "^1.0.0"
+    "@mdi/font": "^4.6.95",
+    "@nuxtjs/vuetify": "^1.9.1"
   }
 }
