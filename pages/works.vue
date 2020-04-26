@@ -24,7 +24,15 @@
       <v-card-text>
         <h2 style="margin: 20px;">toB向け新プロダクトの開発</h2>
         <p style="margin-bottom: 10px;">期間：2020年1月〜現在</p>
-        <h3>RailsとNuxt.jsを用いたtoB向けSPAの新プロダクト開発。<br>APIにRails、フロントエンドにNuxt.jsを用いて現在進行形で開発を進めています。
+        <h3>サーバーサイドにGraphQL(GraphQL Ruby)、フロントエンドにNuxt.jsを用いたtoB向けSPAの新プロダクト開発。<br>自分は主にフロントエンドを担当しており現在進行形で開発を進めています。
+        </h3>
+      </v-card-text>
+    </v-card>
+    <v-card style="margin-bottom: 20px;">
+      <v-card-text>
+        <h2 style="margin: 20px;">toB向け新プロダクトの開発</h2>
+        <p style="margin-bottom: 10px;">期間：2020年5月〜現在</p>
+        <h3>サーバーサイドにRails、フロントエンドにNuxt.jsを用いたtoB向けSPAの新プロダクト開発。<br>5月から新しく始まる予定のプロジェクトです。インフラ以外は全て自分が担当する予定です。
         </h3>
       </v-card-text>
     </v-card>
