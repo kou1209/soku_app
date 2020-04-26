@@ -4,7 +4,7 @@
     <v-container>
       <v-row>
         <v-col xs="12">
-          <nuxt style="padding-top: 60px"></nuxt>
+          <nuxt style="padding-top: 65px"></nuxt>
         </v-col>
       </v-row>
     </v-container>
