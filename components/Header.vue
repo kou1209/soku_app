@@ -1,8 +1,7 @@
 <template>
   <v-tabs
     fixed-tabs
-    background-color="indigo"
-    dark
+    background-color="#424242"
     class="tabs"
   >
     <v-tab v-for="(link, index) in links" :key="index"
