@@ -9,7 +9,7 @@
       no-gutters
       justify="center"
     >
-      <v-col xs="12">
+      <v-col sm="12">
         <div style="text-align: center">
           <v-btn
             v-for="(link, index) in links"
@@ -24,7 +24,7 @@
           </v-btn>
         </div>
       </v-col>
-      <v-col cols="12" style="text-align: center; padding: 10px; 0">
+      <v-col cols="12" style="text-align: center; padding: 10px;">
         <a href="https://github.com/kou1209" target=”_blank”>
           <i class="fab fa-github fa-2x" style="color: black"></i>
         </a>
@@ -33,7 +33,7 @@
         </a>
       </v-col>
       <v-col
-        class="primary lighten-2 text-center white--text"
+        class="text-center white--text"
         xs="12"
         style="text-align: center; color: white; font-weight: bold"
       >

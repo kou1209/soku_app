@@ -1,19 +1,18 @@
 <template>
-  <div style="background-color: #EEEEEE;">
+  <v-app>
     <Header/>
     <v-container>
-      <v-row>
-        <v-col xs="12">
+      <v-row justify="center" align="center">
+        <v-col sm="12" md="8">
           <nuxt style="padding-top: 65px"></nuxt>
         </v-col>
       </v-row>
     </v-container>
     <Footer/>
-  </div>
+  </v-app>
 </template>
 
 <script>
-  // ヘッダ＆フッタをインポート
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
 
